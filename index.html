@@ -102,7 +102,7 @@
                 </a>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
-                <a href="#" class="cardCategory__container">
+                <a href="./pages/accesorios.html" class="cardCategory__container">
                     <div class="cardCategory__image">
                         <img src="./img/accesorios.jpg" alt="accesorios">
                     </div>
@@ -114,24 +114,24 @@
 
     <!-- FOOTER -->
 
-    <footer class="footer-container">
+    <footer class="footer__container">
         <a href="./index.html" class="imgLogo">
             <img src="img/logo_attitude.png" alt="logo de attitude">
         </a>
-        <section class="footer-info">
-            <section class="footer-form">
-                <p class="subtitulos">Newsletter</p>
-                <form action="#" method="get" enctype="application/x-www-form-urlencoded">
-                    <input type="text" id="name" name="name" placeholder="Ingresá tu nombre">
-                    <br>
-                    <input type="email" id="email" name="email" placeholder="Ingresá tu email">
-                    <br>
-                    <input type="submit" value="Enviar">
-                </form>
-            </section>
-            <section class="ayuda-footer">
-                <p class="subtitulos">Ayuda</p>
-                <ul>
+        <section class="footer__form">
+            <p class="subtitulos">Newsletter</p>
+            <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+                <input type="text" id="name" name="name" placeholder="Ingresá tu nombre" required>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Ingresá tu email" required>
+                <br>
+                <button type="submit" class="btn btn-outline-secondary">Suscribirse</button>
+            </form>
+        </section>
+        <section class="footer__info">
+            <section class="footer__help">
+                <ul class="help__list">
+                    <li><strong>Ayuda</strong></li>
                     <li>
                         <a href="./pages/contacto.html">Contacto</a>
                     </li>
@@ -140,15 +140,18 @@
                     </li>
                 </ul>
             </section>
-            <section class="contacto-footer">
-                <p class="subtitulos">Ventas</p>
-                <p class="texto-chico">ventas@attitude.com.ar</p>
-                <p class="subtitulos">Atencion al cliente</p>
-                <p class="texto-chico">atencionalcliente@attitude.com.ar</p>
-                <p class="texto-chico">+542944655578</p>
+            <section class="footer__contact">
+                <ul class="contact__list">
+                    <li><strong>Ventas</strong></li>
+                    <li>ventas@attitude.com.ar</li>
+                    <br>
+                    <li><strong>Atencion al cliente</strong></li>
+                    <li>atencionalcliente@attitude.com.ar</li>
+                    <li>+542944655578</li>
+                </ul>
             </section>
         </section>
-    </footer> 
+    </footer>
 
 
 
