@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.navbar {
+  background-color: white !important;
+  margin: 0px 0 20px 0; }
+  .navbar .container-fluid {
+    padding: 0 !important;
+    flex-direction: column;
+    background-color: white;
+    border-bottom: solid 1px #cccccc; }
+    .navbar .container-fluid .imgLogo img {
+      margin: 20px 0 20px 0; }
+    .navbar .container-fluid .nav-item .nav-link {
+      text-decoration: none;
+      margin: 0 20px 0 20px;
+      font-family: "Poppins", sans-serif;
+      color: #3c3c3b; }
+      .navbar .container-fluid .nav-item .nav-link:hover {
+        transform: scale(1.01);
+        transition: 0.1s;
+        font-weight: 600; }
+    .navbar .container-fluid .nav-item .dropdown-menu .dropdown-item {
+      text-decoration: none;
+      margin: 5px 0px 5px 0px;
+      font-family: "Poppins", sans-serif;
+      color: #3c3c3b; }
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  font-family: "Poppins", sans-serif;
+  padding: 40px 0 0 0;
+  margin: 0 20px 40px 25px;
+  border-top: solid 1px #cccccc;
+  align-items: flex-start;
+  overflow: hidden; }
+  .footer__container .imgLogo img {
+    margin: 0 25px 0px 40px;
+    width: max-content; }
+  .footer__container .footer__form {
+    margin: 0 30px 0 30px; }
+    .footer__container .footer__form .form__container input {
+      font-family: "Poppins", sans-serif;
+      margin: 5px 0 5px 0;
+      padding: 2px 10px 2px 10px;
+      border: solid 1px;
+      border-radius: 15px; }
+    .footer__container .footer__form .form__container .btn {
+      margin: 8px 0 0 0;
+      border-radius: 15px !important; }
+  .footer__container .footer__info {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 100vw;
+    justify-content: space-evenly; }
+    .footer__container .footer__info .footer__help {
+      margin: 0 10px 0 10px; }
+      .footer__container .footer__info .footer__help .help__list {
+        padding: 0 !important; }
+        .footer__container .footer__info .footer__help .help__list li {
+          text-decoration: none;
+          list-style-type: none; }
+          .footer__container .footer__info .footer__help .help__list li a {
+            text-decoration: none;
+            color: black; }
+    .footer__container .footer__info .footer__contact .contact__list {
+      list-style-type: none; }
+
+.carousel {
+  margin-top: 10px; }
+
+.container {
+  margin-top: 45px; }
+  .container .row .cardCategory__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    text-decoration: none;
+    transition: all 0.3s; }
+    .container .row .cardCategory__container:hover {
+      transform: scale(1.05);
+      transition: 0.3s; }
+    .container .row .cardCategory__container .cardCategory__image {
+      height: 233px;
+      overflow: hidden; }
+    .container .row .cardCategory__container .cardCategory__title {
+      margin: 10px 10px 20px 10px;
+      text-decoration: none;
+      color: #3c3c3b;
+      font-family: "Poppins", sans-serif; }

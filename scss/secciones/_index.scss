@@ -1,0 +1,32 @@
+.carousel {
+  margin-top: 10px;
+}
+
+.container {
+  margin-top: 45px;
+  .row {
+    .cardCategory__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+      width: 100%;
+      text-decoration: none;
+      transition: all 0.3s;
+      &:hover {
+        transform: scale(1.05);
+        transition: 0.3s;
+      }
+      .cardCategory__image {
+        height: 233px;
+        overflow: hidden;
+      }
+      .cardCategory__title {
+        margin: 10px 10px 20px 10px;
+        text-decoration: none;
+        color: #3c3c3b;
+        font-family: "Poppins", sans-serif;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.navbar {
+  background-color: white !important;
+  margin: 0px 0 20px 0;
+  .container-fluid {
+    padding: 0 !important;
+    flex-direction: column;
+    background-color: white;    
+    border-bottom: solid 1px rgb(204, 204, 204);
+    .imgLogo {
+        img {
+          margin: 20px 0 20px 0;
+        }
+      }
+    .nav-item {
+      .nav-link {
+        text-decoration: none;
+        margin: 0 20px 0 20px;
+        font-family: "Poppins", sans-serif;
+        color: #3c3c3b;
+        &:hover{
+            transform: scale(1.01);
+            transition: 0.1s;
+            font-weight: 600;
+        }
+      }
+      .dropdown-menu {
+        .dropdown-item {
+          text-decoration: none;
+          margin: 5px 0px 5px 0px;
+          font-family: "Poppins", sans-serif;
+          color: #3c3c3b;
+        }
+      }
+    }
+  }
+}
