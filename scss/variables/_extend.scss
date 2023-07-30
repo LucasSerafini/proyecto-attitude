@@ -1,0 +1,8 @@
+@mixin buttonStyle ($colorButton, $borderButton) {
+  --bs-btn-bg:$colorButton;
+  --bs-btn-border-color:$borderButton;
+  --bs-btn-hover-bg: black;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-active-bg: black;
+  --bs-btn-active-border-color: black;
+}

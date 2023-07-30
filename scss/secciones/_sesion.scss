@@ -1,0 +1,25 @@
+.sesion__container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 40px 0;
+  .formSesion__container {
+    width: 60vw;
+    .btn-primary {
+      --bs-btn-bg: black;
+      --bs-btn-border-color: black;
+      --bs-btn-hover-bg: rgb(54, 54, 54);
+      --bs-btn-hover-border-color: #333333;
+      --bs-btn-active-bg: black;
+      --bs-btn-active-border-color: black;
+      //   @include buttonStyle(blue, red); No logro hacelo funcionar 
+    }
+    .btn-secondary {
+      --bs-btn-bg: rgb(102, 102, 102);
+      --bs-btn-border-color: rgb(102, 102, 102);
+      --bs-btn-hover-bg: black;
+      --bs-btn-hover-border-color: #333333;
+      --bs-btn-active-bg: black;
+      --bs-btn-active-border-color: black;
+    }
+  }
+}

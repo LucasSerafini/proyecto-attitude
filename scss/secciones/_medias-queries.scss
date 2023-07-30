@@ -47,6 +47,14 @@
     }
   }
 
+.carousel__max{
+  display: none;
+}
+.carousel__min{
+ display: block !important;
+}
+
+
   /* FOOTER  */
 
   .footer__container {
@@ -110,7 +118,7 @@
 
 @media (max-width: 768px) {
   .carritoUser__container {
-        left: 75vw;
+    left: 75vw;
   }
 
   .contact__container {
@@ -147,7 +155,7 @@
       .logo__max {
         display: none;
       }
-      .logo__min{
+      .logo__min {
         display: block !important;
       }
     }
@@ -174,6 +182,7 @@
 
   .footer__container {
     display: flex;
+    justify-content: center;
     margin: 0 0 40px 50px;
     flex-direction: column;
     width: 80vw;
@@ -185,6 +194,15 @@
       iframe {
         width: 100% !important;
       }
+    }
+  }
+
+  .sesion__container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px 0;
+    .formSesion__container {
+      width: 90vw;
     }
   }
 }

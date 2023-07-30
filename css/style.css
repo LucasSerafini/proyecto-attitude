@@ -17,7 +17,7 @@
 
 .navbar {
   background-color: white !important;
-  margin: 0px 0 20px 0; }
+  margin: 0px 0 10px 0; }
   .navbar .container-fluid {
     padding: 0 !important;
     flex-direction: column;
@@ -85,7 +85,10 @@
       list-style-type: none; }
 
 .carousel {
-  margin-top: 10px; }
+  margin-top: 5px; }
+
+.carousel__min {
+  display: none; }
 
 .container {
   margin-top: 45px; }
@@ -196,6 +199,27 @@ body .page__title {
     .contact__container .formContact__container .btn {
       margin: 20px 0 10px 0; }
 
+.sesion__container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 40px 0; }
+  .sesion__container .formSesion__container {
+    width: 60vw; }
+    .sesion__container .formSesion__container .btn-primary {
+      --bs-btn-bg: black;
+      --bs-btn-border-color: black;
+      --bs-btn-hover-bg: rgb(54, 54, 54);
+      --bs-btn-hover-border-color: #333333;
+      --bs-btn-active-bg: black;
+      --bs-btn-active-border-color: black; }
+    .sesion__container .formSesion__container .btn-secondary {
+      --bs-btn-bg: rgb(102, 102, 102);
+      --bs-btn-border-color: rgb(102, 102, 102);
+      --bs-btn-hover-bg: black;
+      --bs-btn-hover-border-color: #333333;
+      --bs-btn-active-bg: black;
+      --bs-btn-active-border-color: black; }
+
 @media (max-width: 1200px) {
   .footer__container {
     margin-bottom: 50px; }
@@ -225,6 +249,10 @@ body .page__title {
       padding-left: 0 !important;
       padding-right: 0 !important;
       width: 100vw; }
+  .carousel__max {
+    display: none; }
+  .carousel__min {
+    display: block !important; }
   /* FOOTER  */
   .footer__container {
     flex-direction: column;
@@ -300,10 +328,17 @@ body .page__title {
       width: 100vw; }
   .footer__container {
     display: flex;
+    justify-content: center;
     margin: 0 0 40px 50px;
     flex-direction: column;
     width: 80vw; }
   .contact__container .contact__info {
     margin: 0 40px 0 0; }
     .contact__container .contact__info iframe {
-      width: 100% !important; } }
+      width: 100% !important; }
+  .sesion__container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px 0; }
+    .sesion__container .formSesion__container {
+      width: 90vw; } }
