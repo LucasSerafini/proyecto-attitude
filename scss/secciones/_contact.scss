@@ -1,0 +1,40 @@
+
+body .page__title{
+  text-align: center;
+  font-size: medium;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px 0 40px 0;
+  .contact__info {
+    margin: 0 50px 0 0;
+    .contact__list {
+      margin: 0 !important;
+      padding: 0 !important;
+      li {
+        text-decoration: none;
+        list-style-type: none;
+        margin: 5px 0 0 0;
+      }
+    }
+    .contact__social{
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0 20px 0;
+        .contact__link{
+         margin-right: 20px;
+         color: black;
+        }
+    }
+  }
+  .formContact__container {
+    width: 50vw;
+    .btn {
+      margin: 20px 0 10px 0;
+    }
+  }
+}
+

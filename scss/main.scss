@@ -1,7 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
+@import "./variables/colores";
+@import "./variables/fonts";
 @import "./secciones/header";
 @import "./secciones/footer";
 @import "./secciones/index";
+@import "./secciones/productos";
+@import "./secciones/contact";
+@import "./secciones/medias-queries";

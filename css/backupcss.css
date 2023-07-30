@@ -163,6 +163,7 @@
 .cardCategory__container:hover {
   transform: scale(1.05);
   transition: 0.3s;
+
 }
 
 .cardCategory__image {
@@ -436,6 +437,9 @@
     "product-7 product-8"
     "product-9";
 }
+
+
+/* hola  */
 
 .accesories-container {
   display: grid;

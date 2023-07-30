@@ -4,19 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/icono_barra.png">
     <title>Contacto | Attitude</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/381116d6a2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <!-- HEADER -->
-
+    <section class="carritoUser__container">
+        <a href="#" class="carritoUser__icon">
+            <i class="fa-solid fa-cart-shopping fa-xl"></i>
+        </a>
+        <a href="#" class="carritoUser__icon">
+            <i class="fa-solid fa-user fa-xl"></i>
+        </a>
+    </section>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+                <div class="container-fluid">
             <a href="../index.html" class="imgLogo">
-                <img src="../img/logo_attitude.png" alt="logo de attitude">
+                <img src="../img/logo_attitude.png" alt="logo de attitude" class="logo__max">
+                <img src="../img/logo-min.png" alt="logo serafini" class="logo__min">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -52,68 +62,96 @@
                 </ul>
             </div>
         </div>
+
     </nav>
 
-    <hr>
-    <h1 class="titulos">¡Contactate con nosotros!</h1>
-    <section class="formularioContacto">
-        <form action="#" method="get" enctype="application/x-www-form-urlencoded">
-            <br>
-            <label for="name">Nombre</label>
-            <br>
-            <input type="text" id="name" name="name" required>
-            <br><br>
-            <label for="email">Correo electrónico</label>
-            <br>
-            <input type="email" id="email" name="email" required>
-            <br><br>
-            <label for="name">¿Cúal es tu consulta?</label><br>
-            <input type="text" id="name" name="name" required>
-            <br><br>
-            <input type="submit" value="Enviar consulta">
-        </form>
+    <h1 class="page__title">Contactate con Nosotros</h1>
 
-<footer class="footer__container">
-    <a href="../index.html" class="imgLogo">
-        <img src="../img/logo_attitude.png" alt="logo de attitude">
-    </a>
-    <section class="footer__form">
-        <p class="subtitulos">Newsletter</p>
-        <form class="form__container" action="#" method="get" enctype="application/x-www-form-urlencoded">
-            <input type="text" id="name" name="name" placeholder="Ingresá tu nombre" required>
-            <br>
-            <input type="email" id="email" name="email" placeholder="Ingresá tu email" required>
-            <br>
-            <button type="submit" class="btn btn-outline-secondary">Suscribirse</button>
-        </form>
-    </section>
-    <section class="footer__info">
-        <section class="footer__help">
-            <ul class="help__list">
-                <li><strong>Ayuda</strong></li>
-                <li>
-                    <a href="../pages/contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="../pages/frecuentes.html">Preguntas frecuentes</a>
-                </li>
-            </ul>
-        </section>
-        <section class="footer__contact">
+    <section class="contact__container">
+        <section class="contact__info">
             <ul class="contact__list">
                 <li><strong>Ventas</strong></li>
                 <li>ventas@attitude.com.ar</li>
-                <br>
-                <li><strong>Atencion al cliente</strong></li>
+                <li><strong>Atención al cliente</strong></li>
                 <li>atencionalcliente@attitude.com.ar</li>
                 <li>+542944655578</li>
             </ul>
+            <div class="contact__social">
+                <a href="https://www.instagram.com/" target="_blank" class="contact__link">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                </a>
+                <a href="https://es-la.facebook.com/" target="_blank" class="contact__link">
+                    <i class="fa-brands fa-facebook-f fa-xl"></i>
+                </a>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.0335814731015!2d-71.30876232450302!3d-41.1337928713332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b7217a3a779%3A0xce397c95751409d4!2sMitre%20252%2C%20San%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1690297148631!5m2!1ses!2sar"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+
+        <form class="formContact__container">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" name="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Teléfono</label>
+                <input type="text" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                <button type="submit" class="btn btn-dark">Enviar</button>
+        </form>
+
     </section>
-</footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-            crossorigin="anonymous"></script>
+
+    <footer class="footer__container">
+        <a href="../index.html" class="imgLogo">
+            <img src="../img/logo_attitude.png" alt="logo de attitude">
+        </a>
+        <section class="footer__form">
+            <p class="subtitulos">Newsletter</p>
+            <form class="form__container" action="#" method="get" enctype="application/x-www-form-urlencoded">
+                <input type="text" id="name" name="name" placeholder="Ingresá tu nombre" required>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Ingresá tu email" required>
+                <br>
+                <button type="submit" class="btn btn-outline-secondary">Suscribirse</button>
+            </form>
+        </section>
+        <section class="footer__info">
+            <section class="footer__help">
+                <ul class="help__list">
+                    <li><strong>Ayuda</strong></li>
+                    <li>
+                        <a href="../pages/contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="../pages/frecuentes.html">Preguntas frecuentes</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer__contact">
+                <ul class="contact__list">
+                    <li><strong>Ventas</strong></li>
+                    <li>ventas@attitude.com.ar</li>
+                    <br>
+                    <li><strong>Atencion al cliente</strong></li>
+                    <li>atencionalcliente@attitude.com.ar</li>
+                    <li>+542944655578</li>
+                </ul>
+            </section>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
