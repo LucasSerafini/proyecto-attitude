@@ -169,6 +169,19 @@
         color: #3c3c3b;
         text-align: center; }
 
+.frecuentes__container {
+  position: relative;
+  left: 15%;
+  width: 70vw;
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  .frecuentes__container .accordion-button:not(.collapsed) {
+    background-color: white;
+    color: black; }
+
+.accordion-button:focus {
+  box-shadow: none; }
+
 body .page__title {
   text-align: center;
   font-size: medium; }
