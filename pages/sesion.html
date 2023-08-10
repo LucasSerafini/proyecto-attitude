@@ -65,6 +65,14 @@
 
     </nav>
 
+    <nav class="breadcrumb__content" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Inicio de sesión</li>
+        </ol>
+    </nav>
+
+
     <h1 class="page__title">Inicia sesion o registrate</h1>
 
     <section class="sesion__container">
@@ -75,7 +83,8 @@
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="email" aria-describedby="emailHelp" name="password" required>
+                <input type="password" class="form-control" id="email" aria-describedby="emailHelp" name="password"
+                    required>
             </div>
             <div class="d-grid gap-2">
                 <button type="submit" class="btn btn-primary" type="button">Iniciar sesión</button>

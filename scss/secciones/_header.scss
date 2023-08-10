@@ -52,3 +52,15 @@
     }
   }
 }
+
+.breadcrumb__content{
+  .breadcrumb{
+    .breadcrumb-item{
+      a{
+        text-decoration: none !important;
+        color: black;
+        margin-left: 2rem;
+      }
+    }
+  }
+}
